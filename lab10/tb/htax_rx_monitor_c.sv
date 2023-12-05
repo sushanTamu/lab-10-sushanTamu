@@ -15,10 +15,29 @@ class htax_rx_monitor_c extends uvm_monitor;
 	htax_rx_mon_packet_c rx_mon_packet;
 	int pkt_len;
 
+  covergroup cover_htax_rx_intf;
+		option.per_instance = 1;
+		option.name = "cover_htax_rx_intf";
+
+	// Coverpoint for rx_data:
+		RX_DATA: coverpoint htax_rx_intf.rx_data {bins b1 = {[0:$]};}
+	endgroup 
+
+  covergroup cover_rx_eot;
+		option.per_instance = 1;
+		option.name = "cover_rx_eot";
+	// Coverpoint for rx_eot:
+		RX_EOT: coverpoint htax_rx_intf.rx_eot {																							bins eot [] = {1};}
+  endgroup	
+
 	function new (string name, uvm_component parent);
 		super.new(name, parent);
 		rx_collect_port = new ("rx_collect_port", this);
 		rx_mon_packet 	= new();
+		
+		//Handle for the covergroup cover_htax_rx_intf
+		this.cover_htax_rx_intf = new();
+		this.cover_rx_eot = new();
 	endfunction : new
 
 	function void build_phase (uvm_phase phase);
@@ -40,6 +59,9 @@ class htax_rx_monitor_c extends uvm_monitor;
 				rx_mon_packet.data[pkt_len-1] = htax_rx_intf.rx_data;
 			end
 			
+			//cover_rx_req.sample();       //Sample Coverage on rx_mon_packet
+			cover_rx_eot.sample();       //Sample Coverage on rx_mon_packet
+			cover_htax_rx_intf.sample();       //Sample Coverage on rx_mon_packet
 			//Write the rx_mon_packet on anaylysis port
 			rx_collect_port.write(rx_mon_packet);
 		

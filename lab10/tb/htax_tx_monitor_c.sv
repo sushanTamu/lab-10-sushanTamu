@@ -46,7 +46,6 @@ class htax_tx_monitor_c extends uvm_monitor;
     option.per_instance = 1;
     option.name = "cover_htax_tx_intf";
 
-		
 		//Coverpoint for tx_outport_req: covered all the values 0001,0010,0100,1000
 		OUTPORT_REQ : coverpoint htax_tx_intf.tx_outport_req 	{
 																														bins outport_req [] = {1,2,4,8};

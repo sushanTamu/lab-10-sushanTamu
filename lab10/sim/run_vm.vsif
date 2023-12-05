@@ -51,11 +51,35 @@ group all_test {
       test test6 {
       	   run_script: "cd $ENV(PWD) ; irun -f run_vm.f +UVM_TESTNAME=multiport_sequential_random_test -define TEST6" ;
            scan_script: "vm_scan.pl ius.flt shell.flt" ;
-	   count : 5;
+	   count : 10;
       };
 
     ------------------------------------------------------------
     -- Add your tests here -------------------------------------
     ------------------------------------------------------------
+
+      test test7 {
+      	   run_script: "cd $ENV(PWD) ; irun -f run_vm.f +UVM_TESTNAME=random_test -define TEST7" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 200;
+      };
+
+      test test8 {
+      	   run_script: "cd $ENV(PWD) ; irun -f run_vm.f +UVM_TESTNAME=medium_packet_random_test -define TEST8" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 50;
+      };
+
+      test test9 {
+      	   run_script: "cd $ENV(PWD) ; irun -f run_vm.f +UVM_TESTNAME=long_packet_random_test -define TEST9" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 50;
+      };
+      
+      test test10 {
+      	   run_script: "cd $ENV(PWD) ; irun -f run_vm.f +UVM_TESTNAME=short_packet_test -define TEST10" ;
+           scan_script: "vm_scan.pl ius.flt shell.flt" ;
+	   count : 50;
+      };
 
 };

@@ -1,0 +1,29 @@
+vmanager: *I,MERGL1: Preparing icc target model ...
+vmanager: *I,MERGL1: Doing model union ...
+vmanager: *I,MERGL2:   With primary run (/home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/merged_ucds/default/1701306803032): /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/merged_ucds/default/1701306803032/icc_4e8e3c4e_38c2f32f.ucm(merged)
+vmanager: *I,MERGL1: Target model generated successfully.
+vmanager: *I,MERGL1: Projecting data into the target model ...
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_1/cov_work/scope/test_sv-1098394789:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_2/cov_work/scope/test_sv1636279777:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_3/cov_work/scope/test_sv1904716072:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_4/cov_work/scope/test_sv-376980089:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_5/cov_work/scope/test_sv-108560376:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_6/cov_work/scope/test_sv-444099347:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_7/cov_work/scope/test_sv-1249404072:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_8/cov_work/scope/test_sv-846762416:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_9/cov_work/scope/test_sv495416881:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_10/cov_work/scope/test_sv-1115193507:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL2:   /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/chain_0/all_test/run_11/cov_work/scope/test_sv-1551416718:
+vmanager: *I,MERGL3:       Data is projected in to the target model.
+vmanager: *I,MERGL1: Writing icc data to /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_19_12_08_1409/merged_ucds/default/1701306961391/merged_tests/icc_4e8e3c4e_38c2f32f.ucd(merged)
+vmanager: *I,coverage.merge_op_done_no_warns: Merge operation (session runs merge) is done without any conflicts.

@@ -1,0 +1,7 @@
+vmanager: *I,MERGL1: Preparing icc target model ...
+vmanager: *I,MERGL1: Doing model union ...
+vmanager: *I,MERGL2:   With primary run (/home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_22_38_54_4550/model_dir): /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_22_38_54_4550/model_dir/icc_2ff64abc_1a9a899b.ucm
+vmanager: *I,MERGL1: Target model generated successfully.
+vmanager: *I,MERGL1: Writing icc model to /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_22_38_54_4550/merged_ucds/default/1701319215540/icc_2ff64abc_1a9a899b.ucm(merged)
+vmanager: *I,MERGL1: Writing icc data to /home/grads/s/sushan_1201/lab-10-sushanTamu/lab10/sim/regression/htax_regress.sushan_1201.23_11_29_22_38_54_4550/merged_ucds/default/1701319215540/merged_tests/icc_2ff64abc_1a9a899b.ucd(merged)
+vmanager: *I,coverage.merge_op_done_no_warns: Merge operation (session runs merge) is done without any conflicts.
